@@ -7,7 +7,7 @@ WORKDIR /app
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    BUILD_DATE="2025-06-12 14:04:28" \
+    BUILD_DATE="2025-06-12 " \
     CREATED_BY="Avignyan"
 
 # Install dependencies
