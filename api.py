@@ -18,12 +18,7 @@ class GroqAPI:
             max_tokens: int = 1024,
             temperature: float = 0.7
     ) -> Dict[str, Any]:
-        """Send a prompt to the Groq API and get a response
-
-        Args:
-            prompt: The user's input question
-            max_tokens: Maximum number of tokens to generate
-            temperature: Controls randomness (0.0-1.0)
+        
 
         Returns:
             Dict containing the response
