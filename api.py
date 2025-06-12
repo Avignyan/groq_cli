@@ -20,7 +20,7 @@ class GroqAPI:
     ) -> Dict[str, Any]:
         
 
-        Returns:
+       """ Returns:
             Dict containing the response
         """
         try:
